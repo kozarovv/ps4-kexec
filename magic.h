@@ -127,6 +127,7 @@
 #elif defined PS4_4_74
 
 #define kern_off_printf                     0x17F30
+#define kern_off_snprintf 							    0x18230
 #define kern_off_copyin                     0x149f20
 #define kern_off_copyout                    0x149E40
 #define kern_off_copyinstr                  0x14A390
@@ -149,6 +150,10 @@
 #define kern_off_pml4pml4i                  0x21C5A28
 #define kern_off_dmpml4i                    0x21C5A2C
 #define kern_off_dmpdpi                     0x21C5A30
+
+#define kern_off_eap_hdd_key                0x259CCD0
+#define kern_off_edid                       0x26236D0
+#define kern_off_wlanbt                     0x33BC0
 
 #elif defined PS4_5_01
 
